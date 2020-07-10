@@ -13,6 +13,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v1
+      - name: Show folder
+        run: gci -recurse
+        shell: pwsh
       - name: Change to a random image other image
         run: ./.github/actions/scripts/changeimage.ps1
         shell: pwsh
