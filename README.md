@@ -1,9 +1,6 @@
-### Hi there 👋
+### Hi! Jaap here 👋
 
-<!--
-**jaapbrasser/jaapbrasser** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
+I'm a Developer Advocate at Rubrik and I've recently canceled my apartment and decided to call @GitHub home...
 
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
