@@ -2,7 +2,8 @@ name: Manual workflow
 
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
-on: issues:
+on: 
+  issues:
     types: [opened]
 
 jobs:
