@@ -11,7 +11,7 @@ jobs:
     name: Change the photo if issue is created with !NEW! in its title
     runs-on: ubuntu-latest
     steps:
-      - if: contains(github.event.issue.title, '!NEW!') = 'true'
+      - if: contains(github.event.issue.title, '!NEW!') == 'true'
         - name: Checkout
           uses: actions/checkout@v1
         - name: Change to a random image other image
