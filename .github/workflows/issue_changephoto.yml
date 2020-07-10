@@ -11,20 +11,20 @@ jobs:
     name: Change the photo if issue is created with !NEW! in its title
     runs-on: ubuntu-latest
     if: contains(github.event.issue.title, '!NEW!') == 'true'
-      steps:
-        - name: Checkout
-          uses: actions/checkout@v1
-        - name: Change to a random image other image
-          run: ./.github/actions/scripts/changeimage.ps1
-          shell: pwsh
-        - name: Commit changes
-          uses: EndBug/add-and-commit@v4
-          with:
-            message: "Updated based on raised issue"
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        - name: Close Issue
-        uses: peter-evans/close-issue@v1
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Change to a random image other image
+        run: ./.github/actions/scripts/changeimage.ps1
+        shell: pwsh
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v4
         with:
-          comment: |
-            Updated the README.md with new random photo ${{ env.filename }}
+          message: "Updated based on raised issue"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Close Issue
+      uses: peter-evans/close-issue@v1
+      with:
+        comment: |
+          Updated the README.md with new random photo ${{ env.filename }}
