@@ -17,9 +17,9 @@ jobs:
         with:
           issue-number: ${{ github.event.issue.number }}
           body: |
-            Thanks for your request @${{ github.event.issue.user.login }} :sparkles:
+            Thank you for your request @${{ github.event.issue.user.login }} :sparkles:
               
-            ...running action now!
+            ...running action now! :building_construction:
       - name: Checkout
         uses: actions/checkout@v1
       - name: Change to a random image other image
@@ -36,6 +36,7 @@ jobs:
         with:
           comment: |
             Updated the README.md with new random photo:
+              
             ![${{ env.filename }}](https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/${{ env.filename }}?raw=true)
 
             Thanks for your contribution @${{ github.event.issue.user.login }} !
