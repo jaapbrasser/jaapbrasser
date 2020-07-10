@@ -8,7 +8,9 @@ on:
 
 jobs:
   my_first_job:
+  name: My Job
+  runs-on: ubuntu-latest
   steps:
     - name: Display the path
-      run: ./github/actions/scripts/changeimage.ps1
+      run: echo ${env:PATH}
       shell: pwsh
