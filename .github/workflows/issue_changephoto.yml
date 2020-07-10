@@ -1,0 +1,29 @@
+name: Manual workflow
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on: issues:
+    types: [opened]
+
+jobs:
+  my_first_job:
+    name: Change the photo if issue is created with !NEW! in its title
+    runs-on: ubuntu-latest
+    steps:
+      - if: contains(github.event.issue.title, '!NEW!') = 'true'
+        - name: Checkout
+          uses: actions/checkout@v1
+        - name: Change to a random image other image
+          run: ./.github/actions/scripts/changeimage.ps1
+          shell: pwsh
+        - name: Commit changes
+          uses: EndBug/add-and-commit@v4
+          with:
+            message: "Updated based on raised issue"
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        - name: Close Issue
+        uses: peter-evans/close-issue@v1
+        with:
+          comment: |
+            Updated the README.md with new random photo
