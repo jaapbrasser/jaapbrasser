@@ -12,6 +12,13 @@ jobs:
     runs-on: ubuntu-latest
     if: contains(github.event.issue.title, 'NEW')
     steps:
+      - name: Create comment
+        uses: peter-evans/create-or-update-comment@v1
+        with:
+          body: |
+            Thanks for your request @${{ github.event.issue.user.login }} :sparkles:
+              
+            ...running action now!
       - name: Checkout
         uses: actions/checkout@v1
       - name: Change to a random image other image
