@@ -11,6 +11,8 @@ jobs:
     name: Change the photo
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v1
       - name: Change to a random image other image
         run: ./.github/actions/scripts/changeimage.ps1
         shell: pwsh
