@@ -8,9 +8,9 @@ on:
 
 jobs:
 - job: ChangeThePhoto
-  displayName: 'Updates the photo in readme.md to a random new one'
+  displayname: 'Updates the photo in readme.md to a random new one'
   pool:
-    vmImage: 'ubuntu-latest'
+    vmimage: 'ubuntu-latest'
   steps:
   - checkout: self
     persistCredentials: true
