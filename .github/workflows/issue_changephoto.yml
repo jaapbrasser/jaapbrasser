@@ -24,7 +24,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Close Issue
-      uses: peter-evans/close-issue@v1
-      with:
-        comment: |
-          Updated the README.md with new random photo ${{ env.filename }}
+        uses: peter-evans/close-issue@v1
+        with:
+          comment: |
+            Updated the README.md with new random photo ${{ env.filename }}
