@@ -12,17 +12,5 @@ I'm a Developer Advocate at Rubrik and I've recently canceled my apartment and d
 
 
 <kbd>
-  <head>
-    <style>
-      .img-container {
-        text-align: center;
-        display: block;
-      }
-    </style>
-  </head>
-  <body>
-    <span class="img-container"> <!-- Inline parent element -->
-      <img src="https://i.stack.imgur.com/CtiyS.png">
-    </span>
-  </body>
+      <img src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Quokka001.jpg">
 </kbd>
