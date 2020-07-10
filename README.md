@@ -12,5 +12,5 @@ I'm a Developer Advocate at Rubrik and I've recently canceled my apartment and d
 
 
 <kbd>
-      <img img style="float: center;" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Quokka001.jpg">
+      <img style="float: center;" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Quokka001.jpg">
 </kbd>
