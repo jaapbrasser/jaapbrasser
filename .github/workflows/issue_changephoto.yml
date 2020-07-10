@@ -4,7 +4,7 @@ name: Manual workflow
 # or API.
 on: 
   issues:
-    types: [opened]
+    types: [opened, reopened]
 
 jobs:
   my_first_job:
