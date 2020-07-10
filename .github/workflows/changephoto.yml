@@ -8,9 +8,9 @@ on:
 
 jobs:
   my_first_job:
-  name: My Job
-  runs-on: ubuntu-latest
-  steps:
-    - name: Display the path
-      run: echo ${env:PATH}
-      shell: pwsh
+    name: My Job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display the path
+        run: echo ${env:PATH}
+        shell: pwsh
