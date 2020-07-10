@@ -13,9 +13,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v1
-      - name: Show folder
-        run: Get-ChildItem -recurse -force -ea 0 | select-object fullname
-        shell: pwsh
       - name: Change to a random image other image
         run: ./.github/actions/scripts/changeimage.ps1
         shell: pwsh
+      - name: Commit back to repo
+        uses: EndBug/add-and-commit@v4 # You can change this to use a specific version
+          with:
+            force: true
+            message: 'Your commit message'
+          env:
+            # This is necessary in order to push a commit to the repo
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
