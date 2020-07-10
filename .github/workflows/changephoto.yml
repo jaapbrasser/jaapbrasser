@@ -14,7 +14,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
       - name: Show folder
-        run: gci -recurse -force | select fullname
+        run: Get-ChildItem -recurse -force -ea 0 | select-object fullname
         shell: pwsh
       - name: Change to a random image other image
         run: ./.github/actions/scripts/changeimage.ps1
