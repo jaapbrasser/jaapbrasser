@@ -7,6 +7,7 @@ on:
     # Inputs the workflow accepts.
 
 jobs:
+-job:
   pool:
     vmImage: 'ubuntu-latest'
   steps:
