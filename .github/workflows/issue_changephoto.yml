@@ -38,4 +38,5 @@ jobs:
         uses: peter-evans/close-issue@v1
         with:
           comment: |
-            Updated the README.md with new random photo ${{ env.filename }}
+            Updated the README.md with new random photo:
+            <kbd><img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/${{ env.filename }}"></kbd>
