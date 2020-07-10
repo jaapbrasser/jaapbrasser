@@ -10,7 +10,7 @@ jobs:
   my_first_job:
     name: Change the photo if issue is created with !NEW! in its title
     runs-on: ubuntu-latest
-    if: contains(github.event.issue.title, '!NEW!') == 'true'
+    if: contains(github.event.issue.title, '!NEW!')
     steps:
       - name: Checkout
         uses: actions/checkout@v1
