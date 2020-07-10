@@ -39,4 +39,4 @@ jobs:
         with:
           comment: |
             Updated the README.md with new random photo:
-            <kbd><img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/${{ env.filename }}"></kbd>
+            ![${{ env.filename }}](https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/${{ env.filename }}?raw=true)
