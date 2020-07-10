@@ -8,9 +8,9 @@ on:
 
 jobs:
   my_first_job:
-    name: My Job
+    name: Change the photo
     runs-on: ubuntu-latest
     steps:
-      - name: Display the path
-        run: echo ${env:PATH}
+      - name: Change to a random image other image
+        run: ./.github/actions/scripts/changeimage.ps1
         shell: pwsh
