@@ -7,7 +7,8 @@ on:
     # Inputs the workflow accepts.
 
 jobs:
--job:
+- job: ChangeThePhoto
+  displayName: 'Updates the photo in readme.md to a random new one'
   pool:
     vmImage: 'ubuntu-latest'
   steps:
