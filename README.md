@@ -1,3 +1,4 @@
+<link rel="stylesheet" type="text/css" media="all" href="https://github.com/jaapbrasser/jaapbrasser/blob/master/readme.css" />
 ### Hi! Jaap here 👋
 
 I'm a Developer Advocate at Rubrik and I've recently canceled my apartment and decided to call [@GitHub](https://github.com/github) home...
@@ -12,5 +13,5 @@ I'm a Developer Advocate at Rubrik and I've recently canceled my apartment and d
 
 
 <kbd>
-      <img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Quokka001.jpg">
+      <img class="center" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Quokka001.jpg">
 </kbd>
