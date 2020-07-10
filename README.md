@@ -9,3 +9,21 @@ I'm a Developer Advocate at Rubrik and I've recently canceled my apartment and d
   - [🏢 - LinkedIn](https://www.linkedin.com/in/JaapBrasser/)
   - [🦑 - GitHub](https://github.com/jaapbrasser)
 - ⚡ Fun fact: I like animals, all animals, the image at the bottom of this page changes every hour so check back often (or go [here]())
+
+
+<kbd>
+  <head>
+    <title>Center an Image using text align center</title>
+    <style>
+      .img-container {
+        text-align: center;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <span class="img-container"> <!-- Inline parent element -->
+      <img src="https://i.stack.imgur.com/CtiyS.png">
+    </span>
+  </body>
+</kbd>
