@@ -1,4 +1,4 @@
-name: Manual workflow
+name: Run on issues, update photo
 
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
@@ -30,4 +30,4 @@ jobs:
             Updated the README.md with new random photo:
             ![${{ env.filename }}](https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/${{ env.filename }}?raw=true)
 
-            Thanks for your contribution ${{ github.event.issue.user.login }} !
+            Thanks for your contribution @${{ github.event.issue.user.login }} !
