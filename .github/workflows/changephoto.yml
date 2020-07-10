@@ -7,13 +7,8 @@ on:
     # Inputs the workflow accepts.
 
 jobs:
-- job: ChangeThePhoto
-  displayname: 'Updates the photo in readme.md to a random new one'
-  pool:
-    vmimage: 'ubuntu-latest'
+  my_first_job:
   steps:
-  - checkout: self
-    persistCredentials: true
-  - task: ShellScript@2
-  inputs:
-    scriptPath: ./github/actions/scripts/changeimage.sh
+    - name: Display the path
+      run: ./github/actions/scripts/changeimage.ps1
+      shell: pwsh
