@@ -13,7 +13,6 @@ I'm a Developer Advocate at Rubrik and I've recently canceled my apartment and d
 
 <kbd>
   <head>
-    <title>Center an Image using text align center</title>
     <style>
       .img-container {
         text-align: center;
