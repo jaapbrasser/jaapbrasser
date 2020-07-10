@@ -8,9 +8,20 @@ on:
 
 jobs:
   my_first_job:
-    name: Change the photo if issue is created with !NEW! in its title
+    name: Provide additional information
     runs-on: ubuntu-latest
-    if: contains(github.event.issue.title, '!NEW!')
+    steps:
+      - name: Issue title
+        run: echo "${{ github.event.issue.title }}"
+      - name: Get info
+        run: |
+          gci env:
+          gci variable:
+        shell: pwsh
+  my_second_job:
+    name: Change the photo if issue is created with NEW in its title
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.title, 'NEW')
     steps:
       - name: Checkout
         uses: actions/checkout@v1
