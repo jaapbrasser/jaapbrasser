@@ -1,16 +1,6 @@
-<table>
-    <tr>
-        <td>
-            <h3>Hi! Jaap here 👋 </h3>
-        </td>
-         <td>
-        <p align='right'><img src="https://visitor-badge.glitch.me/badge?page_id=jaapbrasser.visitor-badge"></p>
-        </td>
-    </tr>
-</table>
-
-### Hi! Jaap here 👋
-<p align='right'><img src="https://visitor-badge.glitch.me/badge?page_id=jaapbrasser.visitor-badge"></p>
+<table cellspacing="0" cellpadding="0"><tr><td>
+<h3>Hi! Jaap here 👋 </h3></td><td>
+<p align='right'><img src="https://visitor-badge.glitch.me/badge?page_id=jaapbrasser.visitor-badge"></p></td></tr></table>
 
 I'm a Developer Advocate at Rubrik and the more I code the more I am starting to feel I should move out of my apartment and call [@GitHub](https://github.com/github) home...
 
