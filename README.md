@@ -1,4 +1,5 @@
-### Hi! Jaap here 👋 | <p align='right'><img src="https://visitor-badge.glitch.me/badge?page_id=jaapbrasser.visitor-badge"></p>
+### Hi! Jaap here 👋 <p align='right'><img src="https://visitor-badge.glitch.me/badge?page_id=jaapbrasser.visitor-badge"></p>
+
 
 I'm a Developer Advocate at Rubrik and the more I code the more I am starting to feel I should move out of my apartment and call [@GitHub](https://github.com/github) home...
 
