@@ -3,7 +3,6 @@
         <td>
             <h3>Hi! Jaap here 👋 </h3>
         </td>
-
          <td>
         <p align='right'><img src="https://visitor-badge.glitch.me/badge?page_id=jaapbrasser.visitor-badge"></p>
         </td>
