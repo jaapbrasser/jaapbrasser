@@ -2,6 +2,11 @@
 <h3>Hi! Jaap here 👋 </h3></td><td>
 <p align='right'><img src="https://visitor-badge.glitch.me/badge?page_id=jaapbrasser.visitor-badge"></p></td></tr></table>
 
+aa|bb|cc
+--|--|--
+ee|ff|gg 
+
+
 I'm a Developer Advocate at Rubrik and the more I code the more I am starting to feel I should move out of my apartment and call [@GitHub](https://github.com/github) home...
 
 - 🌱 I’m currently learning to get better at Go & Terraform and I've been dabling in some Python & Ruby
