@@ -1,4 +1,4 @@
-$CurrentFile = (Get-Content ./README.md) -match 'Assets' -replace '.*?Assets/(.*?)".*','$1'
+$CurrentFile = (Get-Content ./README.md) -match 'Assets' -replace '.*?Assets/(.*?)".*','$1' | Select-Object -Last 1
 $RandomFile = Get-ChildItem -Path ./Assets -Exclude *md |
     Where-Object {$_.Name -ne $CurrentFile} |
     Get-Random | Select-Object -ExpandProperty Name
