@@ -30,6 +30,7 @@ jobs:
         with:
           message: "Updated based on raised issue raised #${{ github.event.issue.number }} by @${{ github.event.issue.user.login }}"
         env:
+          GITHUB_FILEPATH: 0
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Close Issue
         uses: peter-evans/close-issue@v1
