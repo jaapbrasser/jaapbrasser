@@ -5,6 +5,7 @@ $RandomFile = Get-ChildItem -Path ./Assets -Exclude *md |
 Write-Output "The new file is: '$RandomFile'"
 $env:filename = $RandomFile
 gci variable:
+gci env:
 Out-File -FilePath $GITHUB_ENV -Encoding utf8 -Append -InputObject "filename=$($env:filename)"
 (Get-Content ./README.md) -replace '(/Assets/).*?(\")', ('$1{0}$2' -f $RandomFile) |
     Set-Content -Path ./README.md
