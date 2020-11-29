@@ -25,12 +25,13 @@ jobs:
       - name: Change to a random image other image
         run: ./.github/actions/scripts/changeimage.ps1
         shell: pwsh
+        env:
+          filename: 0
       - name: Commit changes
         uses: EndBug/add-and-commit@v4
         with:
           message: "Updated based on raised issue raised #${{ github.event.issue.number }} by @${{ github.event.issue.user.login }}"
         env:
-          GITHUB_FILEPATH: 0
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Close Issue
         uses: peter-evans/close-issue@v1
