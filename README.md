@@ -14,6 +14,6 @@ I'm a Developer Advocate at Rubrik and the more I code the more I am starting to
 
 <p align='center'>
 <kbd>
-    <img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Quokka019.jpg">
+    <img height="300" src="https://user-images.githubusercontent.com/12744735/103420836-aa0d2600-4b99-11eb-97cd-bad5795d22d3.png">
 </kbd>
 </p>
