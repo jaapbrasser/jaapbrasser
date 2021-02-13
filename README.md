@@ -13,7 +13,6 @@ I'm a Developer Advocate at Rubrik and the more I code the more I am starting to
 - ⚡ Fun fact: I like animals, all animals, you can update the image by raising an issue with NEW in the title: [Update Photo Here](https://github.com/jaapbrasser/jaapbrasser/issues/new?&title=NEW%20Photo%20Please). If you have any cool photos of your pets feel free to submit a PR for my assets folder and your animals will be part of the rotation!
 
 
-
 <p align='center'>
 <kbd>
     <kbd><img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Upload003-Dexter.jpg"></kbd>
