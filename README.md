@@ -14,8 +14,8 @@ I'm a Developer Advocate at Rubrik and the more I code the more I am starting to
 
 <p align='center'>
 <kbd>
-    <kbd><img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Upload003-Dexter.jpg"></kbd>
-    <kbd><img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Upload004.jpg"></kbd>
-    <kbd><img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Upload005.jpg"></kbd>
+    <kbd><img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Quokka006.jpg"></kbd>
+    <kbd><img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Quokka006.jpg"></kbd>
+    <kbd><img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Quokka006.jpg"></kbd>
 </kbd>
 </p>
