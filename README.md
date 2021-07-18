@@ -17,6 +17,6 @@ I'm a Developer Advocate at Rubrik and the more I code the more I am starting to
 <kbd>
     <kbd><img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Quokka003.jpg"></kbd>
     <kbd><img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Quokka010.jpg"></kbd>
-    <kbd><img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Quokka021.jpg"></kbd>
+    <kbd><img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Quokka020.jpg"></kbd>
 </kbd> 
 </p>
