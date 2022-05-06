@@ -15,7 +15,7 @@ I'm a Sr. Developer Advocate at [@Harness](https://github.com/harness) and the m
 
 <p align='center'>
 <kbd>
-    <kbd><img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Quokka008.jpg"></kbd>
+    <kbd><img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Quokka007.jpg"></kbd>
     <kbd><img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Quokka012.jpg"></kbd>
     <kbd><img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Quokka009.jpg"></kbd>
 </kbd> 
