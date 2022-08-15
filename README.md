@@ -15,8 +15,8 @@ I'm a Sr. Developer Advocate at [@Harness](https://github.com/harness) and the m
 
 <p align='center'>
 <kbd>
-    <kbd><img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Upload001-Addie.jpeg"></kbd>
-    <kbd><img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Upload002-Eevee.jpg"></kbd>
-    <kbd><img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Upload003-Dexter.jpg"></kbd>
+    <kbd><img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Upload005.jpg"></kbd>
+    <kbd><img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Upload005.jpg"></kbd>
+    <kbd><img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Upload005.jpg"></kbd>
 </kbd> 
 </p>
