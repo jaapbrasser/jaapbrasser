@@ -3,7 +3,7 @@
 
 I'm a Sr. Developer Advocate at [@Harness](https://github.com/harness) and the more I code the more I am starting to feel I should move out of my apartment and call [@GitHub](https://github.com/github) home...
 
-- 🌱 I’m currently learning to get better at Go & Terraform and I've been dabling in some Python & Ruby
+- 🌱 I’m currently learning to get better at Go & Terraform and I've been dabling in some Python & Rust
 - 🎤 I enjoy sharing my knowledge, either on stage at conferences around the globe or from behind my webcam at home 🏠
 - 💬 Feel free to reach out with any questions or comments on code, or if you are looking for a speaker for your event.
 - 📫 How to reach me:
