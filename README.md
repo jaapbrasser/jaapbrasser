@@ -8,6 +8,7 @@ I'm a Developer Advocate and the more I code the more I am starting to feel I sh
 - 💬 Feel free to reach out with any questions or comments on code, or if you are looking for a speaker for your event.
 - 📫 How to reach me:
   - [🕊 - X](https://x.com/@jaap_brasser/)
+  - [🪁 - Bluesky](https://bsky.app/profile/jaapjaap.bsky.social)
   - [🏢 - LinkedIn](https://www.linkedin.com/in/JaapBrasser/)
   - [🦑 - GitHub](https://github.com/jaapbrasser)
 - ⚡ Fun fact: I like animals, all animals, you can update the image by raising an issue with NEW in the title: [Update Photo Here](https://github.com/jaapbrasser/jaapbrasser/issues/new?&title=NEW%20Photo%20Please). If you have any cool photos of your pets feel free to submit a PR for my assets folder and your animals will be part of the rotation!
