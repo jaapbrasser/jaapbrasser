@@ -10,7 +10,7 @@ $currentFiles = [regex]::Matches($readme, '/Assets/([^"]+)"') |
     Select-Object -Unique
 
 # Candidate pool (exclude markdown files and anything currently used)
-$candidates = Get-ChildItem -Path $assetsPath -File -Exclude *.md |
+$candidates = Get-ChildItem -Path $assetsPath -Filter *jpg |
     Where-Object { $currentFiles -notcontains $_.Name } |
     Select-Object -ExpandProperty Name
 
