@@ -16,8 +16,8 @@ I'm a Developer Advocate and the more I code the more I am starting to feel I sh
 
 <p align='center'>
 <kbd>
-    <kbd><img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Quokka014.jpg"></kbd>
-    <kbd><img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Quokka004.jpg"></kbd>
-    <kbd><img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Quokka006.jpg"></kbd>
+    <kbd><img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Quokka011.jpg"></kbd>
+    <kbd><img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Quokka010.jpg"></kbd>
+    <kbd><img height="300" src="https://github.com/jaapbrasser/jaapbrasser/blob/master/Assets/Quokka017.jpg"></kbd>
 </kbd> 
 </p>
